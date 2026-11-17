@@ -1,0 +1,7 @@
+# ClientScripts syntax example (not run by game yet)
+on load:
+    say Hello from ClientScripts!
+every 20 ticks:
+    say One second passed
+on key key.keyboard.g:
+    say G pressed

@@ -1,0 +1,13 @@
+id = "client_scripts"
+name = "ClientScripts"
+version = "0.2.0"
+description = "Experimental Rust scripting engine for Horizon Minecraft 26.3."
+authors = ["ClientScripts community"]
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "142388e1c136e622652ec7505af15d8ad195e041"
+mixins = "0d6b103c70633d8fd9443d8d0acd3aadaacedb06"

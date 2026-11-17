@@ -1,0 +1,10 @@
+[package]
+name = "client_scripts"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
